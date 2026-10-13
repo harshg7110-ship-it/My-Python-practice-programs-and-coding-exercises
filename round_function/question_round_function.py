@@ -9,4 +9,4 @@ print(result)
 name = "Python"
 value = len(name) + round(0.1 + 0.2,1)
 print(value)
-
+print()
