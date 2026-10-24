@@ -1,3 +1,6 @@
+# to run on terminal command is
+# python3 name/filename
+
 a=input("enter number 1 :")
 b=input("enter number 2:")
 

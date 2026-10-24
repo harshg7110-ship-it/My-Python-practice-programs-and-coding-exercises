@@ -3,7 +3,7 @@ print(friends[0])
 friends[0]=('grapes') #strings are not changeable but lists are changeable
 print(friends[0])
 
-# append method me aap kuch bhi likho to friends me last me aajaega
+# append method se list ke last me add hoga
 
 friends.append(3334)
 print(friends)
@@ -18,12 +18,10 @@ print(l1)
 l1.reverse()
 print(l1)
 
-# insert chizooko bechme ya list me kahi par bhi insert kar deti 
+# insert things ko bechme ya list me kahi par bhi insert kar deti 
 # hai or 'endswith' or 'startswith' sirf start me ya end me insert karti ha
-l1.insert(3,334343)  #phele list ke number ke hisabse place lihni hai fir jo likhna hai 
+l1.insert(3,334343)  #list ke index ke hisabse place lihni hai fir jo likhna hai 
 print(l1)
 
-l1.pop(2) #output dekhlo samaj a
-
-#ajaega koi bhi number ko htane ke liye 
+l1.pop(2) #2 index delete ho gya
 print(l1)
